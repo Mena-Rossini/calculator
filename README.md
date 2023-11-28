@@ -193,8 +193,12 @@ function clearStorage() {
 }
 ```
 ## WEBPAGE :
+
 ### Calculator Interface :
+
 ![2023-11-28 (5)](https://github.com/Mena-Rossini/calculator/assets/102855266/d73aeb14-8a92-4a65-a5c7-ec859ad6521a)
+
 ### Working :
+
 ![2023-11-28 (6)](https://github.com/Mena-Rossini/calculator/assets/102855266/b6420ea1-8d8d-41e5-93dd-f8c2f9172a35)
 
