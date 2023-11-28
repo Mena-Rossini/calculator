@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" href="icon.jpg" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculator-container">
+        <div class="calculator">
+          <h1>CALCULATOR</h1>
+          <input type="text" name="screen" id="screen" readonly />
+          <table>
+            <tr>
+              <td><button onclick="appendValue('1')">1</button></td>
+              <td><button onclick="appendValue('2')">2</button></td>
+              <td><button onclick="appendValue('3')">3</button></td>
+              <td><button onclick="appendValue('+')">+</button></td>
+            </tr>
+            <tr>
+              <td><button onclick="appendValue('4')">4</button></td>
+              <td><button onclick="appendValue('5')">5</button></td>
+              <td><button onclick="appendValue('6')">6</button></td>
+              <td><button onclick="appendValue('-')">-</button></td>
+            </tr>
+            <tr>
+              <td><button onclick="appendValue('7')">7</button></td>
+              <td><button onclick="appendValue('8')">8</button></td>
+              <td><button onclick="appendValue('9')">9</button></td>
+              <td><button onclick="appendValue('*')">X</button></td>
+            </tr>
+            <tr>
+              <td><button onclick="appendValue('.')">.</button></td>
+              <td><button onclick="appendValue('0')">0</button></td>
+              <td><button onclick="appendValue('+')">+</button></td>
+              <td><button onclick="appendValue('/')">/</button></td>
+            </tr>
+            <tr>
+              <td>
+                <button id="clrstorage" onclick="clearStorage()">
+                  Clear Storage
+                </button>
+              </td>
+              <td><button onclick="clearDisplay()">C</button></td>
+              <td><button onclick="calculate()">=</button></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="storage">
+        <h2>Stored Values</h2>
+        <div id="stored-values"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
