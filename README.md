@@ -1,13 +1,13 @@
-# calculator
+# TECHNOHACKS PROJECT 2 - CALCULATOR :
 
-## Description :
-A simple calculator web application built with Baisc HTML, CSS, and JavaScript for performing arithmetic operations. It allows users to input expressions, calculate results, and store the history of operations.
+## DESCRIPTION :
+A simple calculator web application built with Basic  HTML, CSS, and JavaScript for performing arithmetic operations. It allows users to input expressions, calculate results, and store the history of operations.
 
-## Features :
+## FEATURES :
 * Basic arithmetic operations: addition, subtraction, multiplication, and division.
 * **Responsive design** for various screen sizes.
 * **Storage of calculation history**.
-## Sample code :
+## SAMPLE CODE :
 ### index.html:
 ```
 <!DOCTYPE html>
@@ -192,3 +192,9 @@ function clearStorage() {
   document.getElementById("stored-values").innerHTML = "";
 }
 ```
+## WEBPAGE :
+### Calculator Interface :
+![2023-11-28 (5)](https://github.com/Mena-Rossini/calculator/assets/102855266/d73aeb14-8a92-4a65-a5c7-ec859ad6521a)
+### Working :
+![2023-11-28 (6)](https://github.com/Mena-Rossini/calculator/assets/102855266/b6420ea1-8d8d-41e5-93dd-f8c2f9172a35)
+
