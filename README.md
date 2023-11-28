@@ -202,3 +202,6 @@ function clearStorage() {
 
 ![2023-11-28 (6)](https://github.com/Mena-Rossini/calculator/assets/102855266/b6420ea1-8d8d-41e5-93dd-f8c2f9172a35)
 
+## Contributions:
+Contributions are welcome! If you find any issues or have suggestions for improvements, please [Open New Issue](https://github.com/Mena-Rossini/calculator/issues/new)
+ or submit a pull request. Thank you!
